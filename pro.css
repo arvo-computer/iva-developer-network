@@ -1,0 +1,28 @@
+// SYNRC N2O PRO Color Scheme CSS Overlay
+
+::-webkit-scrollbar { display: none; }
+* { -ms-overflow-style: none; scrollbar-width: none; }
+
+h2, h3 { color: DarkKhaki; }
+nav, body, header { background-color: #ECF8FE; }
+main, footer { background-color: #5B7471; }
+footer { color: DarkKhaki; }
+nav a { background-color: #fff; color: DarkKhaki; }
+nav a:visited { color: DarkKhaki; }
+aside { background-color: #5B7471; }
+aside h3 { color: DarkKhaki; }
+aside div { color: white; }
+aside a, main a, main a:visited, aside a:visited { color: DarkKhaki; }
+figure code, figure pre { color: #330313; background-color: Lavender; }
+main b { color: #121212; }
+
+@media(min-width: 550px)  { figure code { border: 10px solid #D3D3F3; } }
+@media(min-width: 768px)  { figure code { border: 10px solid #D3D3F3; } }
+@media(min-width: 1280px) { figure code { border: 10px solid #D3D3F3; } }
+
+main section {  background-color: #ECF8FE; }
+main section:nth-of-type(even) { background-color: white;margin-left: auto; margin-right: auto; max-width: 1200px; }
+
+.se    { background-color: DarkSlateBlue; color: white; border-radius: .4em; padding: 1 5 1 5; margin-right: 2px; }
+.sel   { background-color: DarkSlateBlue; color: white; border-radius: .4em; padding: 0 10 0 10; margin-right: 3px; }
+.select{ background-color: DarkSlateBlue; color: white; border-radius: .1em; padding: 1 10 1 10; margin-left: -6px; margin-right: 5px; }
